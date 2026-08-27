@@ -1,0 +1,787 @@
+# sent_id = Oroch_grammar_1
+# text = Si mana-ra, bi su-i su-i.
+# text[eng] = If you go, I will drink.
+1	Si	si	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
+2	mana-ra	mana-	VERB	_	VerbForm=Conv	6	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	su-i	su-	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres	6	aux	_	_
+6	su-i	su-	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut	0	root	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	_
+
+# sent_id = Oroch_grammar_2
+# text = Nuwan-nar bē-lə narə-nar.
+# text[eng] = They see each other.
+1	Nuwan-nar	nuwan	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	_	_
+2	bē-lə	bē-	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	_
+3	narə-nar	narə	PRON	_	Number=Plur|PronType=Rcp	2	obj	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Oroch_grammar_3
+# text = Du bi-n.
+# text[eng] = The house is mine.
+1	Du	du	NOUN	_	Case=Nom	0	root	_	_
+2	bi-n	bi	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	1	nmod:poss	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Oroch_grammar_4
+# text = Bi du-du si-lə.
+# text[eng] = I am in the house.
+1	Bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	du-du	du	NOUN	_	Case=Loc	3	obl	_	_
+3	si-lə	si-	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Oroch_grammar_5
+# text = Bi si-du sulgi-nə bəri-l.
+# text[eng] = I gave you the book.
+1	Bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	si-du	si	PRON	_	Case=Dat|Number=Sing|Person=2|PronType=Prs	4	iobj	_	_
+3	sulgi-nə	sulgi	NOUN	_	Case=Acc	4	obj	_	_
+4	bəri-l	bəri-	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Oroch_grammar_6
+# text = Bi tali-vin jəgi-l.
+# text[eng] = I cut it with a knife.
+1	Bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	tali-vin	tali	NOUN	_	Case=Ins	3	obl	_	_
+3	jəgi-l	jəgi-	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Oroch_grammar_7
+# text = Üŋǯe bi mana-l, si bē-l.
+# text[eng] = Yesterday I went, (and) you saw (me).
+1	Üŋǯe	üŋǯe	ADV	_	_	3	advmod	_	_
+2	bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+3	mana-l	mana-	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past	0	root	_	SpaceAfter=No
+4	,	,	PUNCT	_	_	3	punct	_	_
+5	si	si	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	_
+6	bē-l	bē-	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Past	3	conj	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Oroch_grammar_8
+# text = Si mana-ra, bi jaga-ra.
+# text[eng] = If you go, I will stay.
+1	Si	si	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
+2	mana-ra	mana-	VERB	_	VerbForm=Conv	6	advcl	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	_
+5	jaga-ra	jaga-	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Fut	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Oroch_grammar_9
+# text = Nuwan du-du mana-ri.
+# text[eng] = He usually goes to the house.
+1	Nuwan	nuwan	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	_
+2	du-du	du	NOUN	_	Case=Dat	3	obl	_	_
+3	mana-ri	mana-	VERB	_	Aspect=Hab|Mood=Ind|Number=Sing|Person=3	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Oroch_grammar_10
+# text = Si dʒə-si-ni?
+# text[eng] = Do you eat?
+1	Si	si	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
+2	dʒə-si-ni	dʒə-	VERB	_	Mood=Int|Number=Sing|Person=2|Tense=Pres	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Oroch_grammar_11
+# text = Ači dʒə-mi.
+# text[eng] = I don’t eat.
+1	Ači	ači	PART	_	Polarity=Neg	2	advmod	_	_
+2	dʒə-mi	dʒə-	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Oroch_grammar_12
+# text = Si ači əm-si-ni?
+# text[eng] = Aren’t you going?
+1	Si	si	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+2	ači	ači	PART	_	Polarity=Neg	3	advmod	_	_
+3	əm-si-ni	əm-	VERB	_	Mood=Int|Number=Sing|Person=2|Tense=Pres	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Oroch_grammar_13
+# text = Xāi oroχo bəjə bi-si-ni?
+# text[eng] = Where do Oroch people live?
+1	Xāi	xāi	ADV	_	PronType=Int	4	advmod	_	_
+2	oroχo	oroχo	PROPN	_	_	3	amod	_	_
+3	bəjə	bəjə	NOUN	_	Case=Nom|Number=Plur	4	nsubj	_	_
+4	bi-si-ni	bi-	VERB	_	Mood=Int|Number=Plur|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+5	?	?	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Oroch_grammar_14
+# text = Šamān əməŋki bəjə.
+# text[eng] = The shaman is a strong man.
+1	Šamān	šamān	NOUN	_	Case=Nom	3	nsubj	_	_
+2	əməŋki	əməŋki	ADJ	_	Degree=Pos	3	amod	_	_
+3	bəjə	bəjə	NOUN	_	Case=Nom	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Oroch_grammar_15
+# text = Oroχo gurun əməŋki.
+# text[eng] = The Oroch nation is great.
+1	Oroχo	oroχo	NOUN	_	Case=Nom	2	nmod	_	_
+2	gurun	gurun	NOUN	_	Case=Nom	3	nsubj	_	_
+3	əməŋki	əməŋki	ADJ	_	Degree=Pos	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Oroch_grammar_16
+# text = Sōkto-du mangī wā-mi.
+# text[eng] = I cook fish over the fire.
+1	Sōkto-du	sōkto	NOUN	_	Case=Loc	3	obl	_	_
+2	mangī	mangī	NOUN	_	Case=Acc	3	obj	_	_
+3	wā-mi	wā-	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Oroch_grammar_17
+# text = Əməŋki saχa!
+# text[eng] = Help me!
+1	Əməŋki	əməŋki	ADJ	_	Degree=Pos	2	amod	_	_
+2	saχa	saχa	NOUN	_	Case=Nom	0	root	_	SpaceAfter=No
+3	!	!	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Oroch_grammar_18
+# text = Minī ači təgə-mi.
+# text[eng] = I don’t understand.
+1	Minī	minī	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	ači	ači	PART	_	Polarity=Neg	3	advmod	_	_
+3	təgə-mi	təgə-	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Oroch_grammar_19
+# text = Bi su-i, si mana-i.
+# text[eng] = I drink, and you go.
+1	Bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	su-i	su-	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	SpaceAfter=No
+3	,	,	PUNCT	_	_	2	punct	_	_
+4	si	si	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	_	_
+5	mana-i	mana-	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres	2	conj	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Oroch_grammar_20
+# text = Bi mana-viŋ.
+# text[eng] = I do not go.
+1	Bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	mana-viŋ	mana-	VERB	_	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Oroch_grammar_21
+# text = Si su-i=ŋa?
+# text[eng] = Do you drink (it)?
+1	Si	si	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
+2	su-i	su-	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres	0	root	_	SpaceAfter=No
+3	=ŋa	ŋa	PART	_	_	2	discourse	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Oroch_grammar_22
+# text = Ai-nə si bē-i?
+# text[eng] = Who do you see?
+1	Ai-nə	ai	PRON	_	Case=Acc|PronType=Int	3	obj	_	_
+2	si	si	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+3	bē-i	bē-	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Oroch_grammar_23
+# text = Bi üŋǯe mana-l.
+# text[eng] = I went yesterday.
+1	Bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	üŋǯe	üŋǯe	ADV	_	_	3	advmod	_	_
+3	mana-l	mana-	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Oroch_grammar_24
+# text = Bi mana-javə baji.
+# text[eng] = I want to go.
+1	Bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	mana-javə	mana-	VERB	_	VerbForm=Inf	3	xcomp	_	_
+3	baji	baji	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Oroch_grammar_25
+# text = Bi-n du-du si-lə.
+# text[eng] = You are in my house.
+1	Bi-n	bi	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	nmod:poss	_	_
+2	du-du	du	NOUN	_	Case=Loc	3	obl	_	_
+3	si-lə	si-	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Oroch_grammar_26
+# text = Bi üni bē-i.
+# text[eng] = I see myself.
+1	Bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	üni	üni	PRON	_	PronType=Prs|Reflex=Yes	3	obj	_	_
+3	bē-i	bē-	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Oroch_grammar_27
+# text = Nuwan-nar narə-nar bē-lə.
+# text[eng] = They see each other.
+1	Nuwan-nar	nuwan	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	_	_
+2	narə-nar	narə	PRON	_	Number=Plur|PronType=Rcp	3	obj	_	_
+3	bē-lə	bē-	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Oroch_grammar_28
+# text = Bi mana-viŋ-lə.
+# text[eng] = I didn’t go.
+1	Bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	mana-viŋ-lə	mana-	VERB	_	Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Past	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Oroch_grammar_29
+# text = Si xāi əm-si-ni?
+# text[eng] = Where are you going?
+1	Si	si	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+2	xāi	xāi	ADV	_	PronType=Int	3	advmod	_	_
+3	əm-si-ni	əm-	VERB	_	Mood=Int|Number=Sing|Person=2|Tense=Pres	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Oroch_grammar_30
+# text = Minī taiga-du əm-mi.
+# text[eng] = I’m going to the forest.
+1	Minī	minī	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	taiga-du	taiga	NOUN	_	Case=Loc	3	obl	_	_
+3	əm-mi	əm-	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Oroch_grammar_31
+# text = Si əni-du bi-si-ni?
+# text[eng] = Do you have a mother?
+1	Si	si	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+2	əni-du	əni	NOUN	_	Case=Loc	3	obl	_	_
+3	bi-si-ni	bi-	VERB	_	Mood=Int|Number=Sing|Person=2|Tense=Pres	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Oroch_grammar_32
+# text = Ee, minī əni bi-mi.
+# text[eng] = Yes, I have a mother.
+1	Ee	ee	INTJ	_	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	minī	minī	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	əni	əni	NOUN	_	Case=Nom	5	nsubj	_	_
+5	bi-mi	bi-	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Oroch_grammar_33
+# text = Tā taiga-du əm-mi.
+# text[eng] = We go to the taiga (forest).
+1	Tā	tā	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	3	nsubj	_	_
+2	taiga-du	taiga	NOUN	_	Case=Loc	3	obl	_	_
+3	əm-mi	əm-	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Oroch_grammar_34
+# text = Ujəχə əʒi-ni?
+# text[eng] = What is this animal?
+1	Ujəχə	ujəχə	NOUN	_	Case=Nom	2	nsubj	_	_
+2	əʒi-ni	əʒi	PRON	_	PronType=Int	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Oroch_grammar_35
+# text = Oroχo bəjəni əməŋki gurun.
+# text[eng] = The Oroch people are strong.
+1	Oroχo	oroχo	NOUN	_	Case=Nom	2	amod	_	_
+2	bəjəni	bəjə	NOUN	_	Case=Nom|Number=Plur	4	nsubj	_	_
+3	əməŋki	əməŋki	ADJ	_	Degree=Pos	4	amod	_	_
+4	gurun	gurun	NOUN	_	Case=Nom	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Oroch_grammar_36
+# text = Talu-du əʒi əməŋki?
+# text[eng] = What is good in the river?
+1	Talu-du	talu	NOUN	_	Case=Loc	3	obl	_	_
+2	əʒi	əʒi	PRON	_	PronType=Int	3	nsubj	_	_
+3	əməŋki	əməŋki	ADJ	_	Degree=Pos	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Oroch_grammar_37
+# text = Minī ači dʒə-mi.
+# text[eng] = I do not eat.
+1	Minī	minī	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	ači	ači	PART	_	Polarity=Neg	3	advmod	_	_
+3	dʒə-mi	dʒə-	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Oroch_grammar_38
+# text = Təgə-mi ači.
+# text[eng] = I don’t understand.
+1	Təgə-mi	təgə-	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
+2	ači	ači	PART	_	Polarity=Neg	1	advmod	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Oroch_grammar_39
+# text = Minī oroχo bəjə.
+# text[eng] = I am an Oroch man.
+1	Minī	minī	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	oroχo	oroχo	NOUN	_	Case=Nom	3	amod	_	_
+3	bəjə	bəjə	NOUN	_	Case=Nom	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Oroch_grammar_40
+# text = Si dū-du bi-si-ni?
+# text[eng] = Do you live in the house?
+1	Si	si	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+2	dū-du	dū	NOUN	_	Case=Loc	3	obl	_	_
+3	bi-si-ni	bi-	VERB	_	Mood=Int|Number=Sing|Person=2|Tense=Pres	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Oroch_grammar_41
+# text = Mangī əməŋki.
+# text[eng] = The fish is big.
+1	Mangī	mangī	NOUN	_	Case=Nom	2	nsubj	_	_
+2	əməŋki	əməŋki	ADJ	_	Degree=Pos	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Oroch_grammar_42
+# text = Amaka dē əʒi-ni.
+# text[eng] = Father drinks water.
+1	Amaka	amaka	NOUN	_	Case=Nom	3	nsubj	_	_
+2	dē	dē	NOUN	_	Case=Acc	3	obj	_	_
+3	əʒi-ni	əʒi-	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Oroch_grammar_43
+# text = Si əsi-ni?
+# text[eng] = How are you?
+1	Si	si	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
+2	əsi-ni	əsi	ADV	_	PronType=Int	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Oroch_grammar_44
+# text = Minī əsi.
+# text[eng] = I am fine.
+1	Minī	minī	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	əsi	əsi	ADJ	_	Degree=Pos	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Oroch_grammar_45
+# text = Minī ətəχə.
+# text[eng] = I am sick.
+1	Minī	minī	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	ətəχə	ətəχə	ADJ	_	Degree=Pos	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Oroch_grammar_46
+# text = Si oroχo bəjə-ni?
+# text[eng] = Are you an Oroch person?
+1	Si	si	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+2	oroχo	oroχo	NOUN	_	Case=Nom	3	amod	_	_
+3	bəjə-ni	bəjə	NOUN	_	Case=Nom	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Oroch_grammar_47
+# text = Ee, minī bəjə oroχo.
+# text[eng] = Yes, I am an Oroch man.
+1	Ee	ee	INTJ	_	_	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	minī	minī	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	bəjə	bəjə	NOUN	_	Case=Nom	0	root	_	_
+5	oroχo	oroχo	NOUN	_	Case=Nom	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Oroch_grammar_48
+# text = Ači, minī akṣi oroχo.
+# text[eng] = No, I am an Oroch woman.
+1	Ači	ači	PART	_	Polarity=Neg	4	discourse	_	SpaceAfter=No
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	minī	minī	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+4	akṣi	akṣi	NOUN	_	Case=Nom	0	root	_	_
+5	oroχo	oroχo	NOUN	_	Case=Nom	4	amod	_	SpaceAfter=No
+6	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Oroch_grammar_49
+# text = Si əʒi-ni?
+# text[eng] = What is your name?
+1	Si	si	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
+2	əʒi-ni	əʒi	PRON	_	PronType=Int	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Oroch_grammar_50
+# text = Minī əʒi [Name] bi-ni.
+# text[eng] = My name is [Name].
+1	Minī	minī	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	nmod:poss	_	_
+2	əʒi	əʒi	NOUN	_	Case=Nom	4	nsubj	_	_
+3	[Name]	[Name]	PROPN	_	_	4	xcomp	_	_
+4	bi-ni	bi-	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Oroch_grammar_51
+# text = Si xāi-du bi-si-ni?
+# text[eng] = Where do you live?
+1	Si	si	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+2	xāi-du	xāi	ADV	_	PronType=Int	3	obl	_	_
+3	bi-si-ni	bi-	VERB	_	Mood=Int|Number=Sing|Person=2|Tense=Pres	0	root	_	SpaceAfter=No
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Oroch_grammar_52
+# text = Minī [place]-du bi-mi.
+# text[eng] = I live in [place].
+1	Minī	minī	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	_
+2	[place]-du	[place]	PROPN	_	Case=Loc	3	obl	_	_
+3	bi-mi	bi-	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Oroch_grammar_53
+# text = Mangī dʒə-mi.
+# text[eng] = I eat fish.
+1	Mangī	mangī	NOUN	_	Case=Acc	2	obj	_	_
+2	dʒə-mi	dʒə-	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Oroch_grammar_54
+# text = Bəjə dū-du əm-mi.
+# text[eng] = The man goes to the house.
+1	Bəjə	bəjə	NOUN	_	Case=Nom	3	nsubj	_	_
+2	dū-du	dū	NOUN	_	Case=Loc	3	obl	_	_
+3	əm-mi	əm-	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Oroch_grammar_55
+# text = Si təgə-si-ni?
+# text[eng] = Do you see (it)?
+1	Si	si	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	_
+2	təgə-si-ni	təgə-	VERB	_	Mood=Int|Number=Sing|Person=2|Tense=Pres	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Oroch_grammar_56
+# text = Minī təgə-mi.
+# text[eng] = I see (it).
+1	Minī	minī	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	təgə-mi	təgə-	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Oroch_grammar_57
+# text = Bəjəni mangī əməŋki-ni dʒə-či.
+# text[eng] = People eat big fish.
+1	Bəjəni	bəjə	NOUN	_	Case=Nom|Number=Plur	4	nsubj	_	_
+2	mangī	mangī	NOUN	_	Case=Acc	4	obj	_	_
+3	əməŋki-ni	əməŋki	ADJ	_	Case=Acc|Degree=Pos	2	amod	_	_
+4	dʒə-či	dʒə-	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	SpaceAfter=No
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Oroch_grammar_58
+# text = Dē mūkə-ni?
+# text[eng] = Is the water cold?
+1	Dē	dē	NOUN	_	Case=Nom	2	nsubj	_	_
+2	mūkə-ni	mūkə	ADJ	_	Degree=Pos	0	root	_	SpaceAfter=No
+3	?	?	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Oroch_grammar_59
+# text = Minī oroχo gisun gisun-i əməŋki ači.
+# text[eng] = I don’t speak Oroch well.
+1	Minī	minī	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	_
+2	oroχo	oroχo	NOUN	_	Case=Nom	3	amod	_	_
+3	gisun	gisun	NOUN	_	Case=Acc	4	obj	_	_
+4	gisun-i	gisun-	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	_
+5	əməŋki	əməŋki	ADJ	_	Degree=Pos	4	advmod	_	_
+6	ači	ači	PART	_	Polarity=Neg	4	advmod	_	SpaceAfter=No
+7	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Oroch_grammar_60
+# text = Dū-du
+# text[eng] = in the house
+1	Dū-du	dū	NOUN	_	Case=Loc	0	root	_	_
+
+# sent_id = Oroch_grammar_61
+# text = Bəjə-či
+# text[eng] = the man did
+1	Bəjə-či	bəjə	VERB	_	Mood=Ind|Tense=Past	0	root	_	_
+
+# sent_id = Oroch_grammar_62
+# text = Bi su-i.
+# text[eng] = I drink water.
+1	Bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	_
+2	su-i	su-	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	SpaceAfter=No
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Oroch_grammar_63
+# text = Si nokoi-nə bē.
+# text[eng] = You see the dog.
+1	Si	si	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	_
+2	nokoi-nə	nokoi	NOUN	_	Case=Acc	3	obj	_	_
+3	bē	bē-	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres	0	root	_	SpaceAfter=No
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Oroch_grammar_64
+# text = Bi-n du
+# text[eng] = My house
+1	Bi-n	bi	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	2	nmod:poss	_	Gloss=1SG-GEN
+2	du	du	NOUN	_	Case=Nom	0	root	_	Gloss=house
+
+# sent_id = Oroch_grammar_65
+# text = Si-n möri
+# text[eng] = Your tree
+1	Si-n	si	PRON	_	Case=Gen|Number=Sing|Person=2|PronType=Prs	2	nmod:poss	_	Gloss=2SG-GEN
+2	möri	möri	NOUN	_	Case=Nom	0	root	_	Gloss=tree
+
+# sent_id = Oroch_grammar_66
+# text = Bi du-du mana-i.
+# text[eng] = I go to the house.
+1	Bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Gloss=1SG
+2	du-du	du	NOUN	_	Case=Dat	3	obl	_	Gloss=house-DAT
+3	mana-i	mana	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	SpaceAfter=No|Gloss=go-PRS
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Oroch_grammar_67
+# text = Bi nokoi-nə bē-i.
+# text[eng] = I see the dog.
+1	Bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Gloss=1SG
+2	nokoi-nə	nokoi	NOUN	_	Case=Acc	3	obj	_	Gloss=dog-ACC
+3	bē-i	bē	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	SpaceAfter=No|Gloss=see-PRS
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Oroch_grammar_68
+# text = Nuwan mana-ra.
+# text[eng] = He/She will go.
+1	Nuwan	nuwan	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Gloss=3SG
+2	mana-ra	mana	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut	0	root	_	SpaceAfter=No|Gloss=go-FUT
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Oroch_grammar_69
+# text = Bi du-du mana-l.
+# text[eng] = I went to the house.
+1	Bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Gloss=1SG
+2	du-du	du	NOUN	_	Case=Dat	3	obl	_	Gloss=house-DAT
+3	mana-l	mana	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past	0	root	_	SpaceAfter=No|Gloss=go-PST
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Oroch_grammar_70
+# text = Bi tali-vin güdi-l.
+# text[eng] = I cut it with a knife.
+1	Bi	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Gloss=1SG
+2	tali-vin	tali	NOUN	_	Case=Ins	3	obl	_	Gloss=knife-INST
+3	güdi-l	güdi	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past	0	root	_	SpaceAfter=No|Gloss=cut-PST
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Oroch_grammar_71
+# text = Si mangī dʒə-si-ni?
+# text[eng] = Do you eat fish?
+1	Si	si	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	_	Gloss=2SG
+2	mangī	mangī	NOUN	_	Case=Nom	3	obj	_	Gloss=fish
+3	dʒə-si-ni	dʒə	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres	0	root	_	SpaceAfter=No|Gloss=eat-PRS-Q
+4	?	?	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Oroch_grammar_72
+# text = Ee, minī mangī dʒə-mi.
+# text[eng] = Yes, I eat fish.
+1	Ee	ee	INTJ	_	_	4	discourse	_	SpaceAfter=No|Gloss=yes
+2	,	,	PUNCT	_	_	1	punct	_	_
+3	minī	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Gloss=1SG
+4	mangī	mangī	NOUN	_	Case=Nom	5	obj	_	Gloss=fish
+5	dʒə-mi	dʒə	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	SpaceAfter=No|Gloss=eat-PRS
+6	.	.	PUNCT	_	_	5	punct	_	_
+
+# sent_id = Oroch_grammar_73
+# text = Tā oroχo gisun wā!
+# text[eng] = Speak the Oroch language!
+1	Tā	tā	PART	_	_	4	discourse	_	Gloss=IMP.PART
+2	oroχo	oroχo	ADJ	_	_	3	amod	_	Gloss=Oroch
+3	gisun	gisun	NOUN	_	Case=Nom	4	obj	_	Gloss=language
+4	wā	wā	VERB	_	Mood=Imp	0	root	_	SpaceAfter=No|Gloss=speak.IMP
+5	!	!	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Oroch_grammar_74
+# text = Mūkə dē
+# text[eng] = Cold water
+1	Mūkə	mūkə	ADJ	_	_	2	amod	_	Gloss=cold
+2	dē	dē	NOUN	_	Case=Nom	0	root	_	Gloss=water
+
+# sent_id = Oroch_grammar_75
+# text = Taiga-du ujəχə bi-mi.
+# text[eng] = There’s a bear in the forest.
+1	Taiga-du	taiga	NOUN	_	Case=Loc	3	obl	_	Gloss=forest-LOC
+2	ujəχə	ujəχə	NOUN	_	Case=Nom	3	nsubj	_	Gloss=bear
+3	bi-mi	bi	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No|Gloss=be-PRS
+4	.	.	PUNCT	_	_	3	punct	_	_
+
+# sent_id = Oroch_grammar_76
+# text = Sōkto əməŋki.
+# text[eng] = The fire is big.
+1	Sōkto	sōkto	NOUN	_	Case=Nom	0	root	_	Gloss=fire
+2	əməŋki	əməŋki	ADJ	_	Degree=Pos	1	amod	_	SpaceAfter=No|Gloss=big
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Oroch_grammar_77
+# text = Minī agda mangī əʒi-či.
+# text[eng] = My older brother caught fish.
+1	Minī	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	Gloss=1SG
+2	agda	agda	NOUN	_	_	1	appos	_	Gloss=older.brother
+3	mangī	mangī	NOUN	_	Case=Nom	4	obj	_	Gloss=fish
+4	əʒi-či	əʒi	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	SpaceAfter=No|Gloss=catch-PST
+5	.	.	PUNCT	_	_	4	punct	_	_
+
+# sent_id = Oroch_grammar_78
+# text = Udə əm-mi.
+# text[eng] = Rain is coming.
+1	Udə	udə	NOUN	_	Case=Nom	2	nsubj	_	Gloss=rain
+2	əm-mi	əm	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	SpaceAfter=No|Gloss=come-PRS
+3	.	.	PUNCT	_	_	2	punct	_	_
+
+# sent_id = Oroch_grammar_79
+# text = Təŋə mūkə.
+# text[eng] = The sky is cold.
+1	Təŋə	təŋə	NOUN	_	Case=Nom	0	root	_	Gloss=sky
+2	mūkə	mūkə	ADJ	_	Degree=Pos	1	amod	_	SpaceAfter=No|Gloss=cold
+3	.	.	PUNCT	_	_	1	punct	_	_
+
+# sent_id = Oroch_grammar_80
+# text = Mangī əʒi-mi
+# text[eng] = I catch fish.
+1	Mangī	mangī	NOUN	_	Case=Nom	2	obj	_	Gloss=fish
+2	əʒi-mi	əʒi	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	Gloss=catch-PRS
+
+# sent_id = Oroch_grammar_81
+# text = Ujəχə wā-mi
+# text[eng] = I hunt animals.
+1	Ujəχə	ujəχə	NOUN	_	Case=Nom	2	obj	_	Gloss=animal
+2	wā-mi	wā	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	Gloss=hunt-PRS
+
+# sent_id = Oroch_grammar_82
+# text = Dū wā-mi
+# text[eng] = I build a house.
+1	Dū	dū	NOUN	_	Case=Nom	2	obj	_	Gloss=house
+2	wā-mi	wā	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	Gloss=build-PRS
+
+# sent_id = Oroch_grammar_83
+# text = Minī dʒə-mi
+# text[eng] = I eat.
+1	Minī	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Gloss=1SG
+2	dʒə-mi	dʒə	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	Gloss=eat-PRS
+
+# sent_id = Oroch_grammar_84
+# text = Minī dʒə-či
+# text[eng] = I ate.
+1	Minī	bi	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	Gloss=1SG
+2	dʒə-či	dʒə	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past	0	root	_	Gloss=eat-PST
+
+# sent_id = Oroch_grammar_85
+# text = ʊgda-wa=da
+# text[eng] = boat (ACC, focused)
+1	ʊgda-wa=da	ʊgda	NOUN	_	Case=Acc	0	root	_	Focus=Yes
+
+# sent_id = Oroch_grammar_86
+# text = ʊgda-dʊ=da
+# text[eng] = to the boat (focused)
+1	ʊgda-dʊ=da	ʊgda	NOUN	_	Case=Dat	0	root	_	Focus=Yes
+
+# sent_id = Oroch_grammar_87
+# text = ʊgda-ŋi=da
+# text[eng] = his/her boat (focused)
+1	ʊgda-ŋi=da	ʊgda	NOUN	_	Number=Sing|Person=3|Poss=Yes	0	root	_	Focus=Yes
+
+# sent_id = Oroch_grammar_88
+# text = xuŋkə-wə=də
+# text[eng] = canoe (ACC, focused)
+1	xuŋkə-wə=də	xuŋkə	NOUN	_	Case=Acc	0	root	_	Focus=Yes
+
+# sent_id = Oroch_grammar_89
+# text = xuŋkə-du=də
+# text[eng] = to the canoe (focused)
+1	xuŋkə-du=də	xuŋkə	NOUN	_	Case=Dat	0	root	_	Focus=Yes
+
+# sent_id = Oroch_grammar_90
+# text = xuŋkə-ŋi=də
+# text[eng] = his/her canoe (focused)
+1	xuŋkə-ŋi=də	xuŋkə	NOUN	_	Number=Sing|Person=3|Poss=Yes	0	root	_	Focus=Yes
+
+# sent_id = Oroch_grammar_91
+# text = ʊtəŋgə-dʊ=da
+# text[eng] = to the kayak (focused)
+1	ʊtəŋgə-dʊ=da	ʊtəŋgə	NOUN	_	Case=Dat	0	root	_	Focus=Yes
+
+# sent_id = Oroch_grammar_92
+# text = ʊtəŋgə-ŋi=da
+# text[eng] = his/her kayak (focused)
+1	ʊtəŋgə-ŋi=da	ʊtəŋgə	NOUN	_	Number=Sing|Person=3|Poss=Yes	0	root	_	Focus=Yes
+
+# sent_id = Oroch_grammar_93
+# text = biti-wə
+# text[eng] = us (ACC)
+1	biti-wə	bi	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	0	root	_	_
+
+# sent_id = Oroch_grammar_94
+# text = ippi=də
+# text[eng] = to sew (focused)
+1	ippi=də	ippi	VERB	_	VerbForm=Inf	0	root	_	Focus=Yes
+
+# sent_id = Oroch_grammar_95
+# text = isæ-məči
+# text[eng] = to pull from each other
+1	isæ-məči	isæ	VERB	_	VerbForm=Inf|Voice=Rcp	0	root	_	_
+
+# sent_id = Oroch_grammar_96
+# text = gæki-wa
+# text[eng] = hawk (accusative)
+1	gæki-wa	gæki	NOUN	_	Case=Acc	0	root	_	_
+
+# sent_id = Oroch_grammar_97
+# text = sikki=da
+# text[eng] = wash (focused)
+1	sikki=da	sikki	VERB	_	VerbForm=Inf	0	root	_	Focus=Yes
+
+# sent_id = Oroch_grammar_98
+# text = gæawa-na
+# text[eng] = dawn (verbal form)
+1	gæawa-na	gæawa	VERB	_	VerbForm=Vnoun	0	root	_	_
+
+# sent_id = Oroch_grammar_99
+# text = bæskə
+# text[eng] = after all
+1	bæskə	bæskə	ADV	_	_	0	root	_	_
+
+# sent_id = Oroch_grammar_100
+# text = bæ-wa
+# text[eng] = moon (accusative)
+1	bæ-wa	bæ	NOUN	_	Case=Acc	0	root	_	_
+
+# sent_id = Oroch_grammar_101
+# text = badæ=badi
+# text[eng] = more
+1	badæ=badi	badæ	ADV	_	Degree=Cmp	0	root	_	_
+
+# sent_id = Oroch_grammar_102
+# text = əžæ lənidə
+# text[eng] = just below
+1	əžæ	əžæ	ADV	_	_	2	advmod	_	_
+2	lənidə	lənidə	ADV	_	_	0	root	_	_
+
+# sent_id = Oroch_grammar_103
+# text = ŋənə-mdæ
+# text[eng] = walking
+1	ŋənə-mdæ	ŋənə	VERB	_	VerbForm=Part	0	root	_	_
+
+# sent_id = Oroch_grammar_104
+# text = ʊža-mdæ
+# text[eng] = following
+1	ʊža-mdæ	ʊža	VERB	_	VerbForm=Part	0	root	_	_
+
+# sent_id = Oroch_grammar_105
+# text = žangæ-ra
+# text[eng] = judge
+1	žangæ-ra	žangæ	VERB	_	Mood=Ind|Tense=Pres	0	root	_	_
+
+# sent_id = Oroch_grammar_106
+# text = gæʊli-xati
+# text[eng] = went on rowing
+1	gæʊli-xati	gæʊli	VERB	_	Aspect=Prog|Tense=Past	0	root	_	_
+
+# sent_id = Oroch_grammar_107
+# text = pæəmpai
+# text[eng] = magpie
+1	pæəmpai	pæəmpai	NOUN	_	Case=Nom	0	root	_	_
+
+# sent_id = Oroch_grammar_108
+# text = kæmbə
+# text[eng] = break
+1	kæmbə	kæmbə	VERB	_	VerbForm=Inf	0	root	_	_
+
+# sent_id = Oroch_grammar_109
+# text = sɔʁdəə=da
+# text[eng] = greet (focused)
+1	sɔʁdəə=da	sɔʁdəə	VERB	_	VerbForm=Inf	0	root	_	Focus=Yes
+
+# sent_id = Oroch_grammar_110
+# text = əmɔɔ-vɔ-dɔ
+# text[eng] = lake (accusative, focused)
+1	əmɔɔ-vɔ-dɔ	əmɔɔ	NOUN	_	Case=Acc	0	root	_	Focus=Yes
+
